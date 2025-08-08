@@ -1,0 +1,75 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: #A1E3F9;
+    height: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar{
+    background-color: #3674B5;
+    border-bottom: 2px solid #A1E3F9;
+}
+
+.navbar-brand{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: fantasy;
+}
+
+.container-brand-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-link{
+    font-size: 20px;
+    margin-right: 15px;
+    text-shadow: 
+    -1px -1px 0 #A1E3F9, /* Top-left */
+    1px -1px 0 #A1E3F9,  /* Top-right */
+    -1px 1px 0 #4c5557,  /* Bottom-left */
+    1px 1px 0 #4c5557;
+}
+
+.top-content{
+    background-color: #578FCA;
+}
+
+.portpic{
+    border: 5px solid #A1E3F9;
+}
+
+#myproject{
+    margin-top: 50px;
+}
+
+.card-img-top{
+    text-align: center;
+}
+
+/* .text-about{
+    color: #3674B5;
+} */
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background-color: #578FCA;
+    color: white;
+}
+
+
+@media (max-width: 980px) {
+    /* .container-brand-link{
+        display: inline;
+    } */
+    
+}
