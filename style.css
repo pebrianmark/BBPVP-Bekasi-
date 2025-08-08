@@ -1,0 +1,134 @@
+body{
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.grid-container{
+    display: grid;
+    height: 100vh;
+
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: auto 1fr auto;
+
+    grid-template-areas: 
+    "header header"
+    "sidebar pengalaman"
+    "kontak kontak"
+    "footer footer";
+
+    gap: 10px;
+}
+
+.header{
+    background-color: rgb(78, 78, 253);
+    color: white;
+    text-shadow: 
+    -1px -1px 0 black,
+    1px -1px 0 black,  
+    -1px 1px 0 black,  
+    1px 1px 0 black;;
+    grid-area: header;
+    text-align: center;
+}
+
+.sidebar{
+    grid-area: sidebar;
+    /* background-color: rgb(43, 43, 253); */
+    background-color: rgb(78, 78, 253);
+    text-align: center;
+    padding: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.profile-pic{
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.nama{
+    font-size: 16px;
+    color: white;
+    /* text-shadow: 
+    -1px -1px 0 white,
+    1px -1px 0 white,  
+    -1px 1px 0 white,  
+    1px 1px 0 white;; */
+}
+
+.text-profile{
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 8px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: black;
+}
+
+
+
+.pengalaman{
+    grid-area: pengalaman;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+}
+
+.bkkbnpic{
+    width: 250px;
+    border-radius: 10px;
+}
+
+.kontak{
+    grid-area: kontak;
+    padding: 20px;
+}
+
+.linkkontak{
+    text-decoration: none;
+    color: blue;
+    margin-right: 10px;
+}
+.footer{
+    color: white;
+    background-color: black;
+    grid-area: footer;
+}
+
+.header , .sidebar , .pengalaman , .kontak , .footer{
+    border: 2px solid black;
+}
+
+.text-pengalaman , .text-sidebar{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 
+    -1px -1px 0 black, /* Top-left */
+    1px -1px 0 black,  /* Top-right */
+    -1px 1px 0 black,  /* Bottom-left */
+    1px 1px 0 black;
+}
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto 1fr auto; 
+        
+        grid-template-areas:
+            "header"
+            "sidebar"
+            "pengalaman"
+            "kontak"
+            "footer";
+    }
+
+    .sidebar{
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    
+}
