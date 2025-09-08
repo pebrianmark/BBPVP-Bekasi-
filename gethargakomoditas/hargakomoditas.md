@@ -9,10 +9,10 @@
 ## 2. Screenshot Struktur Halaman HTML
 
 ### Detik
-![Struktur HTML Detik](images/css_harga_komoditas_detik)
+![Struktur HTML Detik](images/css_harga_komoditas_detik.png)
 
 ### Bappebti
-![Struktur HTML Bappebti](images/css_harga_komoditas_bappebta)
+![Struktur HTML Bappebti](images/css_harga_komoditas_bappebta.png)
 
 ### Detik (kode HTML)
 ```html
@@ -75,8 +75,8 @@
 ---
 
 ## 5. Contoh Hasil Scraping (Tangkapan Layar)
-![Hasil Scraping](images/bappebta_get_data_komoditas)
+![Hasil Scraping](images/bappebta_get_data_komoditas.png)
 
-![Hasil Scraping Detik](images/detik_get_data_komoditas)
+![Hasil Scraping Detik](images/detik_get_data_komoditas.png)
 
 
