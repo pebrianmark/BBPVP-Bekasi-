@@ -9,7 +9,7 @@
 ## 2. Screenshot Struktur Halaman HTML
 
 ### Detik
-![Struktur HTML Detik](css%harga%komoditas%detik.png)
+![Struktur HTML Detik](images/css%harga%komoditas%detik.png)
 
 ### Bappebti
 ![Struktur HTML Detik](css%20harga%20komoditas%20detik.png)
